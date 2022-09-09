@@ -1,0 +1,49 @@
+.container-main {
+    width: 100vw;
+    height: 90vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-logo {
+    width: 45vw;
+    height: 70vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1.5px solid rgba(0,0,0,0.5 );
+    
+    
+}
+
+.box-login {
+    width: 45vw;
+    height: 80vh;
+    background: #ccc;
+    padding: 30px 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.box-login .titulo {
+    font-size: 30px;
+    font-weight: 800;
+    color: #00ff88;
+    margin: 0;
+}
+
+.text-fild {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
